@@ -11,4 +11,9 @@ class PagesController extends Controller
     {
         return view('pages.root');
     }
+
+    public function emailVerifyNotice(Request $request)
+    {
+        return view('pages.emai_notice');
+    }
 }
